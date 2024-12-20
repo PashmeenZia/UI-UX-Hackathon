@@ -1,9 +1,7 @@
+"useclient";
+
 import Image from "next/image";
 import Link from "next/link";
-
-
-
-
 import {
   Card,
   CardContent,
@@ -36,7 +34,7 @@ export default function Home() {
       <section className="popular w-full flex flex-col gap-4">
         <div className="first w-full flex items-center justify-between">
           <h1 className="text-gray-500 text-lg sm:text-xl">Popular Car</h1>
-          <Link href={"/categories"}>
+          <Link href={"/categaries"}>
             <h1 className="text-[#3563e9] font-bold hover:underline decoration-[#3563e9]">
               View All
             </h1>
@@ -293,7 +291,7 @@ export default function Home() {
       </section>
 
       <section className="button w-full text-center">
-        <Link href={"/categories"}>
+        <Link href={"/categaries"}>
           <button className="bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5">
             Show More Cars
           </button>

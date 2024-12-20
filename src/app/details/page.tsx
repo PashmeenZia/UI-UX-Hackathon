@@ -1,3 +1,4 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
 import Link from "next/link";
@@ -9,12 +10,14 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import Sidebar from '@/components/Sidebar';
 
 export default function page() {
   return (
     <div className='w-full flex'>
      <div className="first hidden sm:flex w-[25%]">
-        <Image src={'/Nav Bar Side.png'} alt='' width={360} height={1600}/>
+        {/*<Image src={'/Nav Bar Side.png'} alt='' width={360} height={1600}/>*/}
+        <Sidebar/>
       </div>
       <div className="sec w-full sm:w-[75%] bg-[#f6f7f9] p-4 sm:p-6  flex flex-col gap-10 font-[family-name:var(--font-geist-sans)]">
         <section className=' w-full flex flex-col md:flex-row gap-5  items-center justify-around'>

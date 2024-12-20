@@ -10,7 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-
+import Sidebar from '@/components/Sidebar';
 export default function Page() {
   const [showMore, setShowMore] = useState(false);
 
@@ -21,7 +21,8 @@ export default function Page() {
   return (
     <div className='w-full flex'>
       <div className="first hidden sm:flex w-[20%]">
-        <Image src={'/Nav Bar Side.png'} alt='' width={360} height={1600}/>
+        {/*<Image src={'/Nav Bar Side.png'} alt='' width={360} height={1600}/>*/}
+        <Sidebar/>
       </div>
       <div className="sec w-full sm:w-[80%] bg-[#f6f7f9] p-4 sm:p-6  flex flex-col gap-10 font-[family-name:var(--font-geist-sans)]">
         <section className="w-full flex flex-col sm:flex-row items-center justify-center sm:justify-between ">
