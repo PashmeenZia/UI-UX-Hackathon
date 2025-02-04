@@ -62,7 +62,7 @@ export default function page() {
         <section className="popular w-full flex flex-col gap-5">
         <div className="first w-full flex items-center justify-between px-10 xl:px-14">
           <h1 className="text-gray-500 text-lg sm:text-xl">Recent Car</h1>
-          <Link href={"/categories"}>
+          <Link href={"/categaries"}>
             <h1 className="text-[#3563e9] font-bold hover:underline decoration-[#3563e9]">
               View All
             </h1>
@@ -133,7 +133,7 @@ export default function page() {
       <section className="popular w-full flex flex-col gap-5">
         <div className="first w-full flex items-center justify-between px-10 xl:px-14">
           <h1 className="text-gray-500 text-lg sm:text-xl">Recomendation Car</h1>
-          <Link href={"/categories"}>
+          <Link href={"/categaries"}>
             <h1 className="text-[#3563e9] font-bold hover:underline decoration-[#3563e9]">
               View All
             </h1>
